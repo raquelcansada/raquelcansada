@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="ISO-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <!-- Importando Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #BEBEBE; /* Azul bebê */
+            text-align: center;
+            padding: 20px 0;
+        }
+        .logo {
+            max-width: 200px;
+            margin: 20px auto;
+            display: block;
+        }
+        .services, .contact {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .services h2, .contact h2 {
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .service {
+            background-color: #B3DFFA; /* Azul claro */
+            border-radius: 10px;
+            margin: 20px 0;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            transition: transform 0.3s;
+        }
+        .service:hover {
+            transform: scale(1.02);
+        }
+        .service i {
+            font-size: 2em;
+            margin-right: 15px;
+            color: #000;
+        }
+        .service h3 {
+            margin: 0;
+            font-size: 1.5em;
+            color: #000;
+        }
+        .portfolio-item {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px 0;
+            background-color: #1a1a1a;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        .portfolio-item img {
+            max-width: 300px;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+        .portfolio-item p {
+            flex: 1;
+            font-size: 1em;
+        }
+        .contact {
+            text-align: center;
+        }
+        .contact a {
+            color: #89CFF0;
+            text-decoration: none;
+            font-size: 1.2em;
+            margin: 0 15px;
+            display: inline-flex;
+            align-items: center;
+        }
+        .contact a i {
+            margin-right: 8px;
+        }
+        .contact a:hover {
+            color: #fff;
+        }
+        @media (max-width: 768px) {
+            .portfolio-item {
+                flex-direction: column;
+                align-items: center;
+            }
+            .portfolio-item img {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="seu-logo.png" alt="Meu Logo" class="logo">
+    </header>
+
+    <section class="services">
+        <h2>Serviços</h2>
+        <!-- Serviço 1 -->
+        <div class="service">
+            <i class="fas fa-book"></i>
+            <h3>Edição de Revistas</h3>
+        </div>
+        <div class="portfolio-item">
+            <img src="revista.jpg" alt="Edição de Revistas">
+            <p>Criação e edição de layouts e publicações para revistas impressas e online, com design atraente e organização visual impecável.</p>
+        </div>
+        <!-- Serviço 2 -->
+        <div class="service">
+            <i class="fas fa-print"></i>
+            <h3>Produtos Gráficos</h3>
+        </div>
+        <div class="portfolio-item">
+            <img src="graficos.jpg" alt="Produtos Gráficos">
+            <p>Desenvolvimento de materiais gráficos como cartões, catálogos, banners, pastas, sacolas, embalagens, tags, adesivos, panfletos personalizados, logos, sites, estudo de usabilidade para sites, jogos vintage.</p>
+        </div>
+        <!-- Serviço 3 -->
+        <div class="service">
+            <i class="fas fa-video"></i>
+            <h3>Vídeos para Internet</h3>
+        </div>
+        <div class="portfolio-item">
+            <img src="videos.jpg" alt="Vídeos para Internet">
+            <p>Produção de vídeos dinâmicos para redes sociais, anúncios e plataformas digitais.
+<a href="https://x.com/eusouraquelb/status/1908277190195642750/video/1" target="_blank"><i class="fab fa-x-twitter"></i>       Acesse o vídeo  </a>
+</p>
+        </div>
+        <!-- Serviço 4 -->
+        <div class="service">
+            <i class="fas fa-microphone"></i>
+            <h3>Dublagem</h3>
+        </div>
+        <div class="portfolio-item">
+            <img src="dublagem.jpg" alt="Dublagem">
+            <p>Dublagem profissional para vídeos, animações e comerciais com qualidade de áudio superior. <a href="https://x.com/eusouraquelb/status/1926359880207585781" target="_blank"><i class="fab fa-x-twitter"></i>       Acesse a dublagem  </a>
+</p>
+        </div>
+        <!-- Serviço 5 -->
+        <div class="service">
+            <i class="fas fa-tags"></i>
+            <h3>Promoção de Vendas</h3>
+        </div>
+        <div class="portfolio-item">
+            <img src="promocao.jpg" alt="Promoção de Vendas">
+            <p>Estratégias criativas para alavancar vendas por meio de campanhas promocionais. Ações de Merchandising no Ponto de Venda.</p>
+        </div>
+        <!-- Serviço 6 -->
+        <div class="service">
+            <i class="fas fa-paint-roller"></i>
+            <h3>Restauração de Obras de Arte</h3>
+        </div>
+        <div class="portfolio-item">
+            <img src="restauracao.png" alt="Restauração de Obras">
+            <p>Restauração cuidadosa de obras de arte, preservando sua essência e valor histórico. Restauração de fotografias antigas. </p>
+        </div>
+        <!-- Serviço 7 -->
+        <div class="service">
+            <i class="fas fa-paint-brush"></i>
+            <h3>Maquiagem Profissional</h3>
+        </div>
+        <div class="portfolio-item">
+            <img src="maquiagem.jpg" alt="Maquiagem Profissional">
+            <p>Maquiagem para eventos, sessões de fotos e produções audiovisuais com técnicas modernas. Maquiagem adequada para cada tipo de produção. </p>
+        </div>
+        <!-- Serviço 8 -->
+        <div class="service">
+            <i class="fas fa-calendar-alt"></i>
+            <h3>Organização de Eventos</h3>
+        </div>
+        <div class="portfolio-item">
+            <img src="eventos.jpg" alt="Organização de Eventos">
+		<img src="eventos1.jpg" alt="Organização de Eventos">
+
+            <p>Planejamento e execução de eventos corporativos, sociais e desfiles de moda com atenção aos detalhes.</p>
+        </div>
+        <!-- Serviço 9 -->
+        <div class="service">
+            <i class="fas fa-camera"></i>
+            <h3>Fotografia para Internet</h3>
+        </div>
+        <div class="portfolio-item">
+            <img src="fotografia.jpg" alt="Fotografia para Internet">
+            <p>Fotografias de alta qualidade para redes sociais, sites e campanhas digitais. Fotografia para a Campanha: O Sorvete perfeito existe </p>
+		
+        </div>
+        <!-- Serviço 10 -->
+        <div class="service">
+            <i class="fas fa-laptop"></i>
+            <h3>Reparação e Manutenção de Computadores</h3>
+        </div>
+        <div class="portfolio-item">
+            <img src="reparacao.jpg" alt="Reparação de Computadores">
+            <p>Serviço técnico especializado em manutenção e reparação de computadores e notebooks.</p>
+        </div>
+        <!-- Serviço 11 -->
+        <div class="service">
+            <i class="fas fa-film"></i>
+            <h3>Modelo e Atriz para Comerciais</h3>
+        </div>
+        <div class="portfolio-item">
+            <img src="modelo.jpg" alt="Modelo e Atriz">
+            <p>Atuação profissional como modelo e atriz em comerciais e campanhas publicitárias.</p>
+        </div>
+        <!-- Serviço 12 -->
+        <div class="service">
+            <i class="fas fa-share-alt"></i>
+            <h3>Criação de Conteúdo para Redes Sociais</h3>
+        </div>
+        <div class="portfolio-item">
+            <img src="conteudo.jpg" alt="Conteúdo para Redes Sociais">
+            <p>Desenvolvimento de conteúdo criativo e estratégico para engajamento em redes sociais.</p>
+        </div>
+        <!-- Serviço 13 -->
+        <div class="service">
+            <i class="fas fa-chart-line"></i>
+            <h3>Consultoria na Área de Marketing Digital</h3>
+        </div>
+        <div class="portfolio-item">
+            <img src="marketing.jpg" alt="Marketing Digital">
+            <p>Consultoria especializada para otimizar estratégias de marketing digital e aumentar resultados.</p>
+        </div>
+        <!-- Serviço 14 -->
+        <div class="service">
+            <i class="fas fa-bullhorn"></i>
+            <h3>Consultoria na Área de Publicidade</h3>
+        </div>
+        <div class="portfolio-item">
+            <img src="publicidade.jpg" alt="Publicidade">
+            <p>Orientação estratégica para campanhas publicitárias eficazes e impactantes.</p>
+        </div>
+        <!-- Serviço 15 -->
+        <div class="service">
+            <i class="fas fa-palette"></i>
+            <h3>Direção de Arte</h3>
+        </div>
+        <div class="portfolio-item">
+            <img src="direcao.jpg" alt="Direção de Arte">
+            <p>Criação de conceitos visuais únicos para projetos de mídia e campanhas publicitárias.</p>
+        </div>
+        <!-- Serviço 16 -->
+        <div class="service">
+            <i class="fas fa-briefcase"></i>
+            <h3>Desenvolvimento e Gestão de Marca e Imagem Profissional</h3>
+        </div>
+        <div class="portfolio-item">
+            <img src="marca.jpg" alt="Gestão de Marca">
+            <p>Construção e gestão de marcas com foco em identidade visual e posicionamento no mercado.</p>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contato</h2>
+        <a href="https://x.com/eusouraquelb" target="_blank"><i class="fab fa-x-twitter"></i> Meu Perfil no X</a>
+        <a href="mailto:raquebonatto@gmail.com"><i class="fas fa-envelope"></i> E-mail</a>
+        <a href="https://wa.me/+5554999837820" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+    </section>
+</body>
+</html>
